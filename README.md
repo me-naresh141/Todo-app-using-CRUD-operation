@@ -9,6 +9,7 @@ you can find live demo over here https://me-naresh141.github.io/Todo-app-using-C
 
 # Technology
 * html
+* scss
 * javascript
 
 # Sample project

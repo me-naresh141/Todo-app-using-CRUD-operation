@@ -1,0 +1,192 @@
+@import './general.css';
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  background-color: rgb(55, 57, 84);
+  padding-top: 2rem;
+  height: 100vh;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+
+input {
+  background-color: rgb(55, 57, 84);
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+ul {
+  height: 600px;
+  overflow-y: scroll;
+}
+ul li {
+  padding: 0.3rem;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(55, 57, 84);
+  margin: 0.5rem 0;
+}
+ul li span {
+  cursor: pointer;
+}
+ul li p {
+  text-transform: capitalize;
+  font-size: 1.7rem;
+  width: 80%;
+  word-wrap: break-word;
+  cursor: pointer;
+}
+
+ul::-webkit-scrollbar {
+  display: none;
+}
+
+@media all and (max-width: 768px) {
+  body {
+    padding: 0 5px;
+  }
+  body .container {
+    width: 100%;
+  }
+  body .container ul {
+    height: 400px;
+  }
+}/*# sourceMappingURL=style.css.map */

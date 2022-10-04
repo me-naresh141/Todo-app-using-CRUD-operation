@@ -1,0 +1,58 @@
+@import './reset';
+@import './general.css';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+input {
+  background-color: rgb(55, 57, 84);
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+ul {
+  height: 600px;
+  overflow-y: scroll;
+  li {
+    padding: 0.3rem;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(55, 57, 84);
+    margin: 0.5rem 0;
+    span {
+      cursor: pointer;
+    }
+    p {
+      text-transform: capitalize;
+      font-size: 1.7rem;
+      width: 80%;
+      word-wrap: break-word;
+      cursor: pointer;
+    }
+  }
+}
+
+ul::-webkit-scrollbar {
+  display: none;
+}
+
+@media all and (max-width: 768px) {
+  body {
+    padding: 0 5px;
+    .container {
+      width: 100%;
+      ul {
+        height: 400px;
+      }
+    }
+  }
+}

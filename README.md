@@ -20,4 +20,5 @@ you can find live demo over here https://me-naresh141.github.io/Todo-app-using-C
 
 
 
-![2022-10-04 (2)](https://user-images.githubusercontent.com/99114646/193789660-342049b6-4aec-4746-91d3-32b1dadef8a1.png)
+
+![2022-10-04 (3)](https://user-images.githubusercontent.com/99114646/194452622-083d0be8-d4d1-48da-93b0-5b6a97fd402b.png)
